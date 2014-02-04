@@ -1,4 +1,4 @@
-console-browserify
-==================
+npm
+===
 
-A WebJar for the console-browserify project.
+A WebJar for the npm project.
