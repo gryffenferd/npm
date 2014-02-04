@@ -26,8 +26,8 @@
 
     <scm>
         <url>http://github.com/webjars/npm</url>
-        <connection>scm:git:https://github.com/npm/npm.git</connection>
-        <developerConnection>scm:git:https://github.com/npm/npm.git</developerConnection>
+        <connection>scm:git:https://github.com/webjars/npm.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/npm.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
