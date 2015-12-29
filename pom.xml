@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>npm</artifactId>
-    <version>2.14.14</version>
+    <version>2.14.15-SNAPSHOT</version>
     <name>npm</name>
     <description>WebJar for npm</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/npm</url>
         <connection>scm:git:https://github.com/webjars/npm.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/npm.git</developerConnection>
-        <tag>npm-2.14.14</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
