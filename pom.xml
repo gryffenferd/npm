@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>npm</artifactId>
-    <version>4.0.3-SNAPSHOT</version>
+    <version>4.2.0-SNAPSHOT</version>
     <name>npm</name>
     <description>WebJar for npm</description>
     <url>http://webjars.org</url>
@@ -40,7 +40,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>4.0.2</upstreamVersion>
+        <upstreamVersion>4.2.0</upstreamVersion>
         <upstream.url>https://github.com/npm/npm</upstream.url>
         <extractDir>${project.build.directory}/npm-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
