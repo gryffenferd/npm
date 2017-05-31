@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>npm</artifactId>
-    <version>4.4.5-SNAPSHOT</version>
+    <version>5.0.0-SNAPSHOT</version>
     <name>npm</name>
     <description>WebJar for npm</description>
     <url>http://webjars.org</url>
@@ -25,7 +25,7 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/npm</url>
+        <url>https://github.com/webjars/npm</url>
         <connection>scm:git:https://github.com/webjars/npm.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/npm.git</developerConnection>
         <tag>HEAD</tag>
@@ -40,7 +40,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>4.4.4</upstreamVersion>
+        <upstreamVersion>5.0.0</upstreamVersion>
         <upstream.url>https://github.com/npm/npm</upstream.url>
         <extractDir>${project.build.directory}/npm-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
