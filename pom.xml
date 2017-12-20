@@ -11,15 +11,15 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>npm</artifactId>
-    <version>5.0.1-SNAPSHOT</version>
+    <version>5.0.0-1-SNAPSHOT</version>
     <name>npm</name>
     <description>WebJar for npm</description>
     <url>http://webjars.org</url>
 
     <licenses>
         <license>
-            <name>Assorted</name>
-            <url>https://github.com/npm/npm/blob/master/LICENCE</url>
+            <name>The Artistic License 2.0</name>
+            <url>https://raw.githubusercontent.com/npm/npm/latest/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
