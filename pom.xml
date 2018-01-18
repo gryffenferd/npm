@@ -87,11 +87,7 @@
                                 <move file="${extractDir}/bin" toDir="${destDir}" />
                                 <move file="${extractDir}/lib" toDir="${destDir}" />
                                 <move file="${extractDir}/node_modules" toDir="${destDir}" />
-                                <!-- webjars extractor needs a package.json to recognise this as a node module, 
-                                     but npm no longer provides a package.json -->
-                                <echo file="${destDir}/package.json" append="false">{
-  "name": "npm"
-}</echo>
+                                <move file="${extractDir}/package.json" toDir="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
